@@ -1,0 +1,15 @@
+Git Bash é um terminal extendido para otimizar o uso do git. 
+
+git init - inicializa o repositorio do git no diretorio 
+
+mv arquivo ./pastaDesejada/ - Move o arquivo para outra pasta 
+git add nomeArquivo  - Move para staged 
+git commit -m “msg”
+
+git config --global --unset user.email
+git config --global --unset user.name 
+
+git remote add origin linkDoGit - aponta o repositorio local para o remoto (origin é o apelido do repositorio)
+git remote -v - lista os respositorios cadastrados 
+
+git push origin(apelido) master 
